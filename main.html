@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <!-- head adalah bagian dari luar page html dan menjurus pada link serta style page -->
+  <head> </head>
+
+  <!-- contoh penggunaan tag h2, hr, p, b, i -->
+  <!-- body adalah bagian dari page html yang berisikan kerangkka page html -->
+  <body>
+    <!-- h2 digunakan untuk membuat header dengan ukuran kedua dari 6 ukuran header -->
+    <!-- header (h) sendiri memiliki ukuran dari yang terbesar adalah h1 sampai h6 -->
+    <h2>Menggunakan CSS dengan HTML</h2>
+
+    <!-- hr digunakan untuk membuat baris -->
+    <hr />
+
+    <!-- p digunakan untuk membuat paragraf baru -->
+    <!-- b digunakan untuk membold kata atau kalimat -->
+    <!-- i digunakan untuk italic pada kata atau kalimat -->
+    <p>
+      <b>I am a paragraph</b> of text that has a <i>few words</i> in it. show
+      your case
+    </p>
+
+    <!-- hr digunakan untuk membuat baris -->
+    <hr />
+
+    <!-- br digunakan untuk melongkap 1 baris dari baris diatasnya -->
+    <br />
+
+    <!-- h3 adalah header ukuran ketiga dari 6 header -->
+    <h3><strong>To Do List</strong></h3>
+
+    <!-- ol (order list) adalah list terurut pada html -->
+    <!-- ol dapat menggunakan angka atau alpabet dengan menggunakan "<ol> type =" "</ol>"-->
+    <!-- bisa A, a, I, i-->
+    <ol>
+      <!-- li adalah satuan list-->
+      <li>Bangun Pagi</li>
+      <li>Sarapan</li>
+      <li>Tidur Lagi</li>
+    </ol>
+    <hr />
+    <br />
+
+    <h3><strong>Saat sarapan, saya akan makan</strong></h3>
+    <!-- ul (unorder list) adalah list tidak terurut pada html -->
+    <!-- ul dapat menggunakan disc, square, circle dengan menggunakan "<ol> type =" "</ol>"-->
+    <ul>
+      <!-- li adalah satuan list-->
+      <li>Nasi Goreng</li>
+      <li>Mie Goreng</li>
+      <li>Telur Dadar</li>
+    </ul>
+    <hr />
+    <br />
+
+    <h3><strong>Pemrograman Web 1</strong></h3>
+    <!-- dl (definition list) adalah list untuk mendefinisikan pada html -->
+    <!-- dl tidak memiliki penanda pada list dan hanya memasukan definisi yang menjorong kedalam-->
+    <dl>
+      <!-- dt adalah terminologi dari listnya-->
+      <dt><strong>HTML</strong></dt>
+
+      <!-- dd adalah deskripsi dari listnya-->
+      <dd>Hypertext Markup Language</dd>
+      <dt><strong>CSS</strong></dt>
+      <dd>Cascading Style Sheet</dd>
+    </dl>
+    <hr />
+    <br />
+
+    <!-- Berikut adalah contoh penggunaan hyperlink untuk page internal -->
+    <h3>Coba masuk ke <a href="main2.html">halaman 2</a> html ini</h3>
+    <p>Itu adalah contoh hyperlink untuk ke page internal html</p>
+
+    <!-- Berikut adalah contoh penggunaan hyperlink untuk page eksternal -->
+    <p>Cobalah masuk ke page eksternal berikut</p>
+    <h3>
+      Berikut adalah page ke lama
+      <!-- href digunakan untuk menentukan alamat URL ke sumber -->
+      <!-- a adalah anchor yang digunakan untuk memuat alamat URL -->
+      <a href="https://en.wikipedia.org/wiki/Parabola">Parabola Wikipedia</a>
+    </h3>
+    <hr />
+    <br /><br /><br /><br /><br /><br /><br />
+
+    <h3>
+      Selanjutnya, akan belajar mengenai hyperlink yang digunakan untuk didalam
+      page dan keluar page
+    </h3>
+
+    <!-- Ini adalah bentuk page anchor -->
+    <ul>
+      <!-- Pada list ini, digunakan anchor untuk membuat list dengan alamat URL ke halaman internal page -->
+      <li><a href="#bag1">ke bagian 1</a></li>
+      <li><a href="#bag2">ke bagian 2</a></li>
+    </ul>
+
+    <h4 id="bag1">Bagian 1</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+      dignissimos ipsum laudantium perspiciatis obcaecati! Iste deleniti, illo
+      veniam natus vel itaque magnam reiciendis molestias accusamus repudiandae
+      earum recusandae. Amet, ad?
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h4 id="bag2">Bagian 2</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+      dignissimos ipsum laudantium perspiciatis obcaecati! Iste deleniti, illo
+      veniam natus vel itaque magnam reiciendis molestias accusamus repudiandae
+      earum recusandae. Amet, ad?
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h4>
+      Lalu, dapat juga berpindah ke halaman 2 html dengan membuka tab baru
+    </h4>
+    <p>klik <a href="main2.html" target="_blank">disini </a></p>
+    <br /><br />
+
+    <h4>Selanjutnya, kita akan mencoba untuk menaruh gambar pada page html</h4>
+    <!-- img adalah tag untuk menginput gambar pada page html -->
+    <img
+      src="Screenshot 2023-05-30 073125.png"
+      alt="GambarKonsepEtherians"
+      width="400"
+      title="Gambar Konsep Etherians"
+    />
+    <!-- src digunakan untuk 'source' atau sumber gambar -->
+    <!-- alt digunakan untuk nama gambar -->
+    <!-- width digunakan untuk lebar gambar -->
+    <!-- title digunakan untuk keterangan gambar -->
+    <br /><br /><br />
+
+    <!-- Berikut adalah contoh dari penggabungan hyperlink dan image -->
+    <h4>Image juga dapat digabungkan dengan hyperlink, berikut contohnya</h4>
+    <a href="https://en.wikipedia.org/wiki/Parabola" target="_blank">
+      <img src="Screenshot 2023-05-30 073125.png" width="400"
+    </a>
+  </body>
+</html>
