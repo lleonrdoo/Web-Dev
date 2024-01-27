@@ -137,7 +137,99 @@
     <!-- Berikut adalah contoh dari penggabungan hyperlink dan image -->
     <h4>Image juga dapat digabungkan dengan hyperlink, berikut contohnya</h4>
     <a href="https://en.wikipedia.org/wiki/Parabola" target="_blank">
-      <img src="Screenshot 2023-05-30 073125.png" width="400"
+      <img src="Screenshot 2023-05-30 073125.png" width="400" />
     </a>
+    <br /><br /><br />
+
+    <h4>Selanjutnya, akan dibentuk table pada page ini</h4>
+    <!-- table ada tag tabel -->
+    <table border="1" cellspacing="0" cellpadding="5">
+      <!-- tr adalah tag baris -->
+      <tr>
+        <!-- td adalah tag kolom -->
+        <td>Baris 1, kolom 1</td>
+        <td>Baris 1, kolom 2</td>
+      </tr>
+      <tr>
+        <td>Baris 2, kolom 1</td>
+        <td>Baris 2, kolom 2</td>
+      </tr>
+    </table>
+
+    <h4>Lalu, akan dibentuk table yang lebih kompleks</h4>
+    <table border="3" cellspacing="5">
+      <thead>
+        <tr>
+          <!-- th disini adalah untuk tag header -->
+          <th></th>
+          <th>Kolom 1</th>
+          <th>Kolom 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Baris 1</th>
+          <td>Baris 1, kolom 1</td>
+          <td>Baris 1, kolom 2</td>
+        </tr>
+        <tr>
+          <th>Baris 2</th>
+          <td>Baris 2, kolom 1</td>
+          <td>Baris 2, kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <table border="1" cellspacing="0" cellpadding="5">
+      <tr>
+        <td rowspan="2">rowspan 2</td>
+        <td colspan="2">colspan 2</td>
+      </tr>
+      <tr>
+        <td>2, 2</td>
+        <td>2, 3</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <h3>Berikutnya, akan dibuat bentuk dari tag form</h3>
+    <form>
+      <label for="username">Username :</label>
+      <input type="text" id="username" />
+      <br />
+
+      <label for="password">Password :</label>
+      <input type="password" id="password" />
+      <br />
+
+      <input type="radio" id="pria" name="jeniskelamin" />
+      <label for="pria">Pria</label>
+
+      <input type="radio" id="wanita" name="jeniskelamin" />
+      <label for="wanita">Wanita</label>
+      <br />
+
+      <input type="checkbox" id="menyanyi" />
+      <label for="menyanyi">Menyanyi</label>
+
+      <input type="checkbox" id="berenang" />
+      <label for="berenang">Berenang</label>
+
+      <input type="checkbox" id="berkuda" />
+      <label for="berkuda">Berkuda</label>
+      <br />
+
+      <textarea></textarea>
+      <br />
+
+      <select>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+        <option>Medan</option>
+      </select>
+
+      <button>Kirim !</button>
+    </form>
   </body>
 </html>
