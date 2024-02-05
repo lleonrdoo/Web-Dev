@@ -1,0 +1,68 @@
+h1 {
+  /* property color digunakan untuk menampilkan warna pada tag 'h1'*/
+  color: purple;
+
+  /* property font-family digunakan untuk merubah jenis font pada tag 'h1'*/
+  font-family: Arial, Verdana, Sans-serif;
+
+  /* property font-size digunakan untuk merubah ukuran font pada tag 'h1'*/
+  font-size: 80px;
+
+  /* property font-weight digunakan untuk merubah ketebalan font pada tag 'h1'*/
+  font-weight: normal;
+
+  /* property font-variant digunakan untuk membentuk seluruh huruf menjadi kapital, namun
+  tetap dgn proporsi huruf sebelumnya, pada tag 'h1'*/
+  font-variant: small-caps;
+
+  /* property font-style digunakan untuk merubah font menjadi bentuk miring atau standar pada tag 'h1'*/
+  font-style: italic;
+
+  /* property yang digunakan untuk menambahkan atau menghilangkan garis pada teks*/
+  text-decoration: underline;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+
+  /* property line-height digunakan untuk mengatur ukuran space enter pada tag 'p'*/
+  line-height: 50px;
+
+  /* Berikut adalah metode merubah warna dengan kode warna */
+  color: #000000;
+
+  /* property untuk merubah rata kanan kiri teks*/
+  text-align: center;
+
+  /* property untuk menambahkan indentasi dari teks*/
+  text-indent: 50px;
+
+  /* property yang digunakan untuk memberikan space pada kalimat*/
+  letter-spacing: 5px;
+}
+
+h3 {
+  /* property yang digunakan untuk mengkapitalisasi teks*/
+  text-transform: capitalize;
+
+  /* property yang digunakan untuk memberikan space pada kata*/
+  word-spacing: 5px;
+}
+
+body {
+  /* property yang digunakan untuk merubah warna backgorund page */
+  background-color: rgb(230, 163, 87);
+
+  /* property yang digunakan untuk menambahkan gambar pada background*/
+  background-image: url("gambar\ 1.jpg");
+
+  /* property yang digunakan untuk melakukan perulangan gambar hanya sejajar sumbu x*/
+  /*background-repeat: repeat-x;*/
+
+  /* property no-repeat digunakan untuk tidak melakukan perulangan pada gambar */
+  background-repeat: no-repeat;
+
+  /* property ini digunakan untuk menentukan posisi gambar */
+  background-position: top right;
+}
