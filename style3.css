@@ -1,0 +1,63 @@
+/* property ':link' mengarahkan 'color' pada tampilan link di dalam class '.hello' */
+.hello:link {
+  color: orange;
+}
+
+/* property ':hover' mengarahkan 'color', 'font-family',dan 'font-size' pada bentuk link saat
+terdapat kursor mouse di dalam class '.hello' */
+.hello:hover {
+  color: green;
+  font-family: arial;
+  font-size: 20px;
+}
+
+/* property ':active' mengarahkan 'font-style' pada perubahan bentuk link setelah diklik */
+.hello:active {
+  font-style: italic;
+}
+
+/* property ':visited' mengarahkan 'color' pada perubahan warna setelah link dikunjungi */
+.hello:visited {
+  color: red;
+}
+
+/* property ':first-child a' mengarahkan 'color' pada anak pertama dari tag 'li'*/
+/* lalu, diarahkan lagi ke anak pertamanya, yaitu 'a' */
+li:first-child a {
+  color: green;
+}
+
+/* property ':nth-child(3) a' mengarahkan 'color' pada anak ketiga dari tag 'li'*/
+/* lalu, diarahkan lagi ke anak pertamanya, yaitu 'a' */
+li:nth-child(3) a {
+  color: blueviolet;
+}
+
+/* property ':nth-child(odd) a' mengarahkan 'font-style' dan 'color' pada anak dengan urutan ganjil dari tag 'li'*/
+/* lalu, diarahkan lagi ke anak pertamanya, yaitu 'a' */
+/* property ':hover' mengarahkan 'font-style' dan 'color' pada saat kursor mouse berada di link*/
+li:nth-child(odd) a:hover {
+  font-style: italic;
+  color: red;
+}
+
+li:nth-child(even) a:hover {
+  font-style: italic;
+  color: yellow;
+}
+
+/* property 'first-of-type' digunakan untuk mengarahkan 'color' pada paragraf pertama */
+p:first-of-type {
+  color: brown;
+}
+
+/* property 'last-of-type' digunakan untuk mengarahkan 'color' pada paragraf terakhir */
+p:last-of-type {
+  color: greenyellow;
+}
+
+/* property 'inherit' atau 'inheritance' digunakan untuk memfokuskan 'color' pada tag a html,
+   karena tag a tidak mewarisi property 'color' */
+a {
+  color: inherit;
+}

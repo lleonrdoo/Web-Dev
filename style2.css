@@ -1,0 +1,48 @@
+body {
+  font-family: arial;
+}
+
+/* property berikut berarti membuat kedua bentuk heading, yaitu 'h1' dan 'h2'
+menjadi berwarna hijau (green) */
+/* ',' (comma) berarti penambahan*/
+h1,
+h2 {
+  color: green;
+}
+
+/* heading 'h2' dapat ditambahkan property lainnya yang berada ditag css
+, contohnya property 'font-style' dengan cara langsung dibuat tag nya saja */
+h2 {
+  font-style: italic;
+}
+
+/* property berikut berarti, css mewarnai 'a' yang berada di dalam 'li' 
+dan 'li' yang berada didalam 'ul' */
+/* spasi (space) berarti urutan tag-tag pada tag htmlnya dan bagian terakhir
+berarti bagian yang akan ditambahkan property css */
+ul li a {
+  color: red;
+}
+
+ol li a {
+  color: rgb(255, 153, 0);
+}
+
+#p1 {
+  color: #c941c9;
+}
+
+.p2 {
+  color: rgb(81, 81, 224);
+}
+
+/* property berikut berasal dari tag paragraf dengan 'class' yang sama
+, yaitu p2 */
+.cetak-tebal {
+  font-weight: bold;
+}
+
+/* property ini digunakan untuk meminta css mencari paragraf dengan href "cetak-tebal"*/
+p.cetak-tebal {
+  font-size: 10px;
+}
